@@ -6,7 +6,7 @@
 
 	<groupId>io.github.danielbrent</groupId>
 	<artifactId>geocodio-client</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 
 	<name>Geocodio Client</name>
 	<description>Client library for interacting with the Geocodio API</description>
