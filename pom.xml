@@ -12,6 +12,13 @@
 	<description>Client library for interacting with the Geocodio API</description>
 
 	<properties>
+		<java.version>1.8</java.version>
+		<maven.compiler.compilerVersion>${java.version}</maven.compiler.compilerVersion>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<maven.compiler.debug>true</maven.compiler.debug>
+		<maven.compiler.debuglevel>lines,vars,source</maven.compiler.debuglevel>
+		<maven.compiler.verbose>true</maven.compiler.verbose>
 		<jackson.version>2.10.4</jackson.version>
 		<apache.httpclient.version>4.5.12</apache.httpclient.version>
 		<maven-plugin-javadoc.version>2.10.1</maven-plugin-javadoc.version>
@@ -54,6 +61,7 @@
 				</executions>
 				<configuration>
 					<additionalparam>-Xdoclint:none</additionalparam>
+					<source>8</source>
 				</configuration>
 			</plugin>
 			<plugin>
