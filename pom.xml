@@ -10,7 +10,28 @@
 
 	<name>Geocodio Client</name>
 	<description>Client library for interacting with the Geocodio API</description>
+	<url>https://github.com/danielbrent/geocodio-client</url>
 
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>https://www.apache.org/licenses/LICENSE-2.0</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Daniel Brent</name>
+			<organizationUrl>https://github.com/danielbrent</organizationUrl>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git://github.com/danielbrent/geocodio-client.git</connection>
+		<developerConnection>scm:git:ssh://github.com:danielbrent/geocodio-client.git</developerConnection>
+		<url>https://github.com/danielbrent/geocodio-client/tree/main</url>
+	</scm>
+	
 	<properties>
 		<java.version>1.8</java.version>
 		<maven.compiler.compilerVersion>${java.version}</maven.compiler.compilerVersion>
@@ -79,12 +100,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	
-	<licenses>
-		<license>
-			<name>Apache License, Version 2.0</name>
-			<url>https://www.apache.org/licenses/LICENSE-2.0</url>
-		</license>
-	</licenses>
 
 </project>
