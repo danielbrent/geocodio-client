@@ -24,7 +24,7 @@ import org.apache.http.util.EntityUtils;
 
 public class GeocodioClient {
 
-  private String version = "v1.6";
+  private String version = "v1.7";
   private String host = "api.geocod.io";
   private String apiKey;
   private ObjectMapper objectMapper = new ObjectMapper();
